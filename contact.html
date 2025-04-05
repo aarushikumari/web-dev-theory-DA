@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us | Pottery Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .contact-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+            gap: 40px;
+        }
+        .contact-details {
+            max-width: 50%;
+        }
+        .contact-details h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .contact-details p {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        .contact-img img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 12px;
+        }
+
+        @media (max-width: 768px) {
+            .contact-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .contact-details, .contact-img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="topmenu">
+    <img src="Mask group.png">
+    <p><a href="index.html">Home</a></p>
+    <p><a href="classes.html">Classes</a></p>
+    <p><a href="about.html">About us</a></p>
+    <p><a href="shop.html">Shop</a></p>
+    <p><a href="contact.html">Contact us</a></p>
+</div>
+
+<div class="contact-container">
+    <div class="contact-details">
+        <h1>Get in Touch</h1>
+        <p><strong>Email:</strong> info@potterystudio.com</p>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Address:</strong> 123 Clay Lane, Art District, New Delhi, India</p>
+        <p>We're happy to answer your questions, help with bookings, or just talk pottery. Drop us a message or visit us at our studio!</p>
+    </div>
+
+    <div class="contact-img">
+        <img src="Frame 27.png" alt="Pottery Studio Contact Image">
+    </div>
+</div>
+
+</body>
+</html>
